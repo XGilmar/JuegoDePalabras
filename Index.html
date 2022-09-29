@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/funciones.js"></script>
+    <title>No enfades a vegueta</title>
+  </head>
+  <body>
+    <div class="menu">
+      <div class="title">
+        <img src="src/principal.png" alt="img" />
+      </div>
+      <div class="btnInicial">
+        <button class="btnMenu" onclick="iniciarJuego()">Iniciar Juego</button>
+        <button class="btnMenu">Agregar Palabra</button>
+      </div>
+    </div>
+    <div class="resultado">
+      <div class="detalles">
+        <h1 id="TxtResultado"></h1>
+        <p id="TxtPalabra"></p>
+        <img id="result" src="src/win.png" alt="muñeco" />
+        <button class="btnInicio" onclick="Volver()">Inicio</button>
+      </div>
+    </div>
+    <div class="juego">
+      <div class="personaje">
+        <img id="imagen" src="src/fas1.png" alt="personaje" />
+      </div>
+      <div class="muro">
+        <img src="src/muro.png" alt="muro" />
+      </div>
+      <div id="lineas"></div>
+      <div class="teclado">
+        <div class="key uno">
+          <button>Q</button>
+          <button>w</button>
+          <button>E</button>
+          <button>R</button>
+          <button>T</button>
+          <button>Y</button>
+          <button>U</button>
+          <button>I</button>
+          <button>O</button>
+          <button>P</button>
+        </div>
+        <div class="key dos">
+          <button>A</button>
+          <button>S</button>
+          <button>D</button>
+          <button>F</button>
+          <button>G</button>
+          <button>H</button>
+          <button>J</button>
+          <button>K</button>
+          <button>L</button>
+        </div>
+        <div class="key tres">
+          <button>Z</button>
+          <button>X</button>
+          <button>C</button>
+          <button>V</button>
+          <button>B</button>
+          <button>N</button>
+          <button>M</button>
+        </div>
+      </div>
+      <div id="btnObtener">
+        <button class="btnObtener">Obtener Palabra</button>
+      </div>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>
