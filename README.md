@@ -19,8 +19,9 @@
 
 <div align="center">
 <img align="center" width=280rem src="https://user-images.githubusercontent.com/86094668/193163354-9a76ad49-bf33-477a-aa90-c56e1f1ce03f.jpg"/>
-</div><br>
-
+</div>
+<br>
+<br>
 
 > **Insignias obtenida**
 
