@@ -12,15 +12,11 @@
 
 > **Primera imagen**
 <div align="center">
-
-![IMG_20220929_185912](https://user-images.githubusercontent.com/86094668/193163032-d7faa017-0236-4639-aaa2-73cfda600cdd.jpg)
-
+<img align="center" width=280rem src="https://user-images.githubusercontent.com/86094668/193163032-d7faa017-0236-4639-aaa2-73cfda600cdd.jpg"/>
 </div><br>
 
 > **Segunda imagen**
 
 <div align="center">
-
-![IMG_20220929_190005](https://user-images.githubusercontent.com/86094668/193163354-9a76ad49-bf33-477a-aa90-c56e1f1ce03f.jpg)
-
+<img align="center" width=280rem src="https://user-images.githubusercontent.com/86094668/193163354-9a76ad49-bf33-477a-aa90-c56e1f1ce03f.jpg"/>
 </div><br>
