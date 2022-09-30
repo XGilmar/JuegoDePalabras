@@ -21,8 +21,10 @@
 <img align="center" width=280rem src="https://user-images.githubusercontent.com/86094668/193163354-9a76ad49-bf33-477a-aa90-c56e1f1ce03f.jpg"/>
 </div><br>
 
-<div align="center">
+
+> **Insignias obtenida**
+
+<div align="center"><br>
 <img align="center" height="80" width="80" src="https://user-images.githubusercontent.com/86094668/193167574-5313cccf-6ceb-4434-974e-47e37997591c.png"/>
 <img align="center" height="80" width="80" src="https://user-images.githubusercontent.com/86094668/193166998-46c5048a-c700-494f-b201-3eaff3bcedb4.png"/> 
-
 </div>
