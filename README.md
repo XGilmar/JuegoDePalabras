@@ -11,5 +11,10 @@
 <h2 align="center">Capturas de imagen</h2>
 
 > **Primera imagen**
+<div align="center">
 
 ![IMG_20220929_185912](https://user-images.githubusercontent.com/86094668/193163032-d7faa017-0236-4639-aaa2-73cfda600cdd.jpg)
+
+</div><br>
+
+> **Segunda imagen**
