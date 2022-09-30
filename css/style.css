@@ -1,0 +1,230 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap");
+
+* {
+  font-family: "Ubuntu", Sans-Serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --col-white: #fff;
+  --col-yellow: #fdc02e;
+  --col-blue: #00b4e1;
+  --col-rojo: #fa2f2f;
+  --col-blug: #0098be;
+  --col-blackg: #292929;
+  --box-sombra: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+/*ajustes global*/
+h1,
+p,
+span {
+  text-align: center;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  min-height: 100vh;
+  background: url(../src/fondo.gif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*--------seccion de menu --------*/
+.menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.title img {
+  width: 10rem;
+  height: 11rem;
+  margin-bottom: 10px;
+}
+
+.btnInicial {
+  display: flex;
+  gap: 10px;
+}
+
+.btnMenu {
+  width: 9rem;
+  height: 2.8rem;
+  font-weight: 500;
+  font-size: 16px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  color: var(--col-white);
+  background-color: var(--col-blue);
+  box-shadow: var(--box-sombra);
+  cursor: pointer;
+}
+
+.btnMenu:active {
+  background-color: var(--col-blug);
+  box-shadow: none;
+}
+
+/*-------seccion de juegos-------*/
+.juego,
+.resultado {
+  display: none;
+}
+
+.resultado {
+  position: absolute;
+  width: 20rem;
+  height: 18rem;
+  border-radius: 10px;
+  border: 2px solid var(--col-white);
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.detalles {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.detalles h1 {
+  color: var(--col-white);
+}
+
+.detalles p {
+  color: var(--col-white);
+}
+
+.detalles img {
+  height: 8rem;
+  margin-bottom: 25px;
+}
+
+.personaje {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.personaje img {
+  position: absolute;
+  top: -8.2rem;
+  left: 10.2rem;
+  height: 10rem;
+}
+.muro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.muro img {
+  height: 7rem;
+}
+
+#lineas {
+  display: flex;
+  justify-content: center;
+  height: 2em;
+  margin-bottom: 10px;
+  gap: 10px;
+}
+
+#lineas span {
+  display: inline-block;
+  color: var(--col-white);
+  background-color: rgba(0, 0, 0, 0.5);
+  font-size: 1.5em;
+  width: 30px;
+  vertical-align: bottom;
+  border-bottom: 2px solid #fff;
+  border-radius: 5px;
+}
+
+.teclado {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, 0.4);
+  box-shadow: var(--box-sombra);
+  margin-bottom: 20px;
+  gap: 5px;
+}
+
+.key button {
+  width: 2.3rem;
+  height: 2.3rem;
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--col-blackg);
+  border: none;
+  border-radius: 6px;
+}
+
+.key button {
+  background: url(../src/bloque.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 55px;
+  transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -ms-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  overflow: hidden;
+}
+
+.key button:active {
+  width: 2rem;
+  height: 2rem;
+  color: var(--col-white);
+  border-radius: 3px;
+  border: 2px solid #fff;
+  background: none;
+  background-color: transparent;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 55px;
+}
+
+#btnObtener {
+  display: flex;
+  justify-content: center;
+}
+
+.btnObtener,
+.btnInicio {
+  width: 8rem;
+  height: 32px;
+  font-weight: 500;
+  font-size: 14px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: var(--box-sombra);
+  transition: 0.3s all;
+}
+
+.btnObtener:active {
+  box-shadow: none;
+  color: var(--col-white);
+  background-color: var(--col-blue);
+}
+/*Fin de sección del juego */
