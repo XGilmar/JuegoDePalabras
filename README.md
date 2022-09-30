@@ -1,5 +1,5 @@
 <h2 align="center">Juego De Palabras</h2>
-<p align="center">Mini juego de palabras realizado en HTML5, CSS3 y JAVASCRIPT</p>
+<p align="center">Mini juego de palabras realizado en html, css y javascript.</p>
 <br>
 
 <div align="center">
@@ -22,7 +22,7 @@
 </div><br>
 
 
-> **Insignias obtenida**
+<h2 align="center"></h2>
 
 <div align="center"><br>
 <img align="center" height="100" width="100" src="https://user-images.githubusercontent.com/86094668/193167574-5313cccf-6ceb-4434-974e-47e37997591c.png"/>
