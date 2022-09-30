@@ -19,10 +19,11 @@
 
 <div align="center">
 <img align="center" width=280rem src="https://user-images.githubusercontent.com/86094668/193163354-9a76ad49-bf33-477a-aa90-c56e1f1ce03f.jpg"/>
-</div><br>
+</div>
+<br>
+<br>
 
-
-<h2 align="center"></h2>
+> **Insignias obtenida**
 
 <div align="center"><br>
 <img align="center" height="100" width="100" src="https://user-images.githubusercontent.com/86094668/193167574-5313cccf-6ceb-4434-974e-47e37997591c.png"/>
