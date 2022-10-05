@@ -66,14 +66,14 @@ body {
   padding: 10px;
   border: none;
   border-radius: 5px;
-  color: var(--col-white);
-  background-color: var(--col-blue);
+  color: var(--col-blackg);
+  background-color: var(--col-white);
   box-shadow: var(--box-sombra);
   cursor: pointer;
 }
 
 .btnMenu:active {
-  background-color: var(--col-blug);
+  background-color: var(--col-blue);
   box-shadow: none;
 }
 
