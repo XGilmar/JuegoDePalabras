@@ -32,10 +32,7 @@ body {
   align-items: center;
   width: 100vw;
   min-height: 100vh;
-  background: url(../src/fondo.gif);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: url(../src/fondo.gif) center / cover no-repeat;
 }
 
 /*--------seccion de menu --------*/
@@ -66,14 +63,14 @@ body {
   padding: 10px;
   border: none;
   border-radius: 5px;
-  color: var(--col-blackg);
-  background-color: var(--col-white);
+  color: var(--col-white);
+  background-color: var(--col-blue);
   box-shadow: var(--box-sombra);
   cursor: pointer;
 }
 
 .btnMenu:active {
-  background-color: var(--col-blue);
+  background-color: var(--col-blug);
   box-shadow: none;
 }
 
@@ -175,20 +172,14 @@ body {
   font-size: 15px;
   font-weight: 500;
   color: var(--col-blackg);
+  box-shadow: var(--box-sombra);
   border: none;
-  border-radius: 6px;
+  border-radius: 7px;
 }
 
 .key button {
-  background: url(../src/bloque.png);
-  background-position: center;
-  background-repeat: no-repeat;
   background-size: 55px;
   transition: 0.5s all;
-  -webkit-transition: 0.5s all;
-  -moz-transition: 0.5s all;
-  -ms-transition: 0.5s all;
-  -o-transition: 0.5s all;
   overflow: hidden;
 }
 
